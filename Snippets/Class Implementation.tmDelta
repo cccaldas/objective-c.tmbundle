@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>#import "${TM_FILENAME/\...*$/.h/}"
+
+@implementation ${1:${TM_FILENAME/\...*$|(^$)/(?1:object)/}}
+	$3
+@end</string>
+		<key>tabTrigger</key>
+		<string>cla</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>BE0B2832-D88E-40BF-93EE-281DDA93840B</string>
+</dict>
+</plist>

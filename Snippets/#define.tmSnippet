@@ -3,22 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@implementation ${1:${TM_FILENAME/\...*$|(^$)/(?1:object)/}}
-- (id)init
-{
-	if((self = [super init]))
-	{$0
-	}
-	return self;
-}
-@end</string>
+	<string>#define ${1:macro} ${2:args}</string>
 	<key>name</key>
-	<string>Class Implementation</string>
+	<string>#define</string>
 	<key>scope</key>
 	<string>source.objc, source.objc++</string>
 	<key>tabTrigger</key>
-	<string>clm</string>
+	<string>#</string>
 	<key>uuid</key>
-	<string>BE0B2832-D88E-40BF-93EE-281DDA93840B</string>
+	<string>321DB574-7CD9-4E1D-961C-999C3B06CEDD</string>
 </dict>
 </plist>
