@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>export TM_YEAR=`date +%Y`
+export TM_DATE=`date +%Y-%m-%d`
+TM_HEADER="$TM_NEW_FILE_DIRECTORY/$TM_NEW_FILE_BASENAME.h"
+
+if [[ ! (-f $TM_NEW_FILE || -f $TM_HEADER) ]]; then
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;implementation.m &gt;"$TM_NEW_FILE"
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;interface.h &gt;"$TM_HEADER"
+fi</string>
+	<key>extension</key>
+	<string>m</string>
+	<key>name</key>
+	<string>Objective-c Class</string>
+	<key>uuid</key>
+	<string>99BADDCD-DFB0-471D-96C2-3D7256D14254</string>
+</dict>
+</plist>
