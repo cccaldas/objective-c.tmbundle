@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CGRectMake(${1:x}, ${2:y}, ${3:width}, ${4:height})</string>
+	<key>name</key>
+	<string>CGRectMake</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>CG</string>
+	<key>uuid</key>
+	<string>9F09D1BB-CEB6-41A5-A9F8-6C5DB47674FC</string>
+</dict>
+</plist>
