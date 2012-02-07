@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@property(${1:readwrite|readonly}, ${2:nonatomic}, ${3:strong|retain}) ${4:type} ${5:name};</string>
+	<key>name</key>
+	<string>@property</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>@</string>
+	<key>uuid</key>
+	<string>1E0360A9-98E3-4D15-A976-8C8D38E4DFEF</string>
+</dict>
+</plist>

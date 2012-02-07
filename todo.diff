@@ -1,2 +1,12 @@
 #	class template
-+	autocomplete for #import and #include
+#	autocomplete for #import and #include
++	refresh project drawer when create a new class
++	autocomplete public methods
++	autocomplete properties
++	autocomplete static methods
+
+
+
+::ref
+regex:
+	http://en.wikipedia.org/wiki/Regular_expression#Examples
